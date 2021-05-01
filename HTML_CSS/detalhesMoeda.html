@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <style>
+            body {font-family: futura; color: white;}
+            #parteSuperior{background-color: rgb(133, 142, 93); padding: 20px; text-align: -webkit-center}
+            #parteInferior{background-color: black; padding-left: 80px; padding-right: 80px; padding-top: 20px; padding-bottom: 20px;}
+            #tabBar{background-color: black; display: inline-flex; inline-size: -webkit-fill-available; padding-right: 100px; padding-left: 100px; padding-bottom: 10px;}
+            #textSigla{font-size: 20px; font-weight: bolder;}
+            #textValor{font-size: 30px; font-weight: lighter; padding-top: 30px;}
+            #divImagens{max-width: 200px; max-height: 80px; text-align: -webkit-center}
+            #divEstrela{max-width: 30px; max-height: 30px; margin-left: auto}
+            #imagemEstrela{max-width: 25px; max-height: 25px;}
+            #imagemMoeda{max-width: 60px; max-height: 60px; margin-top: 30px;}
+            #button{text-align: -webkit-center}
+            #buttonWord{font-size: 20px; padding: 10px; border-style: solid; border-color: white; border-radius: 8px; max-width: 200px;}
+            #volumes{display: inline-flex;inline-size: -webkit-fill-available;}
+            #volumesNegociados{text-align: center;}
+            #valorVolumes{margin-left: auto}
+            #buttonEsquerda{text-align: center;}
+            #buttonDireita{margin-left: auto; text-align: center;}
+            #textoTabBar{color: white; font-size: 10px;}
+        </style>
+        <title> Detalhes Bitcoin </title>
+    </head>
+    <body>
+        <div id="parteSuperior">
+            <p id="textSigla"> BTC </p>
+            <div>
+                <div id="divImagens">
+                    <div id="divEstrela">
+                        <img id="imagemEstrela" src="estrelafundotransparente.png">
+                    </div>
+                    <div>
+                        <img id="imagemMoeda" src="bitcoin.png">
+                    </div>
+                </div>
+            </div>
+            <p id="textValor"> $ 31.010,20 </p>
+            <div id="button">
+                <p id="buttonWord"> REMOVER </p>
+            </div>
+        </div> 
+        <div id="parteInferior">
+            <p id="volumesNegociados"> volumes negociados </p>
+            <div id="volumes">
+                <div>
+                    <p> última hora </p> 
+                </div>
+                <div id="valorVolumes">
+                    <p> $ 123.456,78 </p>
+                </div>
+            </div>
+            <div id="volumes">
+                <div>
+                    <p> último dia </p> 
+                </div>
+                <div id="valorVolumes">
+                    <p> $ 1.123.456,78 </p>
+                </div>
+            </div>
+            <div id="volumes">
+                <div>
+                    <p> último mês </p> 
+                </div>
+                <div id="valorVolumes">
+                    <p> $ 11.123.456,78 </p>
+                </div>
+            </div>
+        </div> 
+        <div id="tabBar">
+            <div id="buttonEsquerda">
+                <img src="moedas.png">
+                <p id="textoTabBar">Moedas</p>
+            </div>
+            <div id="buttonDireita">
+                <img src="favoritos.png">
+                <p id="textoTabBar">Adicionadas</p>
+            </div>
+        </div>    
+    </body>
+</html>

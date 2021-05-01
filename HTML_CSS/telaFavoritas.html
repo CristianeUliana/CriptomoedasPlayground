@@ -1,0 +1,152 @@
+<html>
+    <head>
+        <style>
+            html {
+                height: 100%;
+                }
+
+            body {
+                font-family: futura; 
+                background-color: black; 
+                height: 100%;
+                }
+            
+            #divPrincipal {
+                padding-top: 10px; 
+                padding-bottom: 10px; 
+                padding-left: 20px; 
+                padding-right: 20px;
+                }
+
+            #cabecalho {
+                text-align: center; 
+                color: rgb(228, 220, 220);
+                padding-bottom: 20px;
+                }
+
+            #linhaDivisoria {
+                height: 1px; 
+                background-color: rgb(99, 97, 97);
+                }
+
+            #divCollection {
+                display: inline-flex;
+                inline-size: -webkit-fill-available;
+                }
+
+            #divCelulaMoeda {
+                background-color: rgb(133, 142, 93); 
+                height: 150px; 
+                width: 150px; 
+                color: white; 
+                text-align: center; 
+                border-radius: 10px;
+                padding: 5px;
+                margin-left: 20px;
+                margin-right: 20px;
+                position: relative;
+                }
+            
+            #nomeMoeda {
+                font-size: 18px;
+                }
+
+            #valorCelula {
+                padding-top: 10px;
+                }
+
+            #imagemMoeda {
+                height: 30px;
+                width: 30px;
+                position: absolute;
+                top: -10px;
+                right: -10px;
+                }
+
+            #tabBar { 
+                background-color: black; 
+                display: inline-flex; 
+                inline-size: -webkit-fill-available; 
+                padding-top: 10px;
+                padding-right: 100px; 
+                padding-left: 100px; 
+                padding-bottom: 10px;
+                position:absolute;
+                left: 0;
+                bottom: 0;
+                }
+
+            #buttonEsquerda {
+                text-align: center;
+                }
+
+            #buttonDireita {
+                margin-left: auto; 
+                text-align: center;
+                }
+
+            #textoTabBar { 
+                color: white; 
+                font-size: 10px;
+                }
+        </style>
+        <title> Moedas Favoritas </title>
+    </head>
+    <body>
+        <div id="divPrincipal">
+
+            <div id="cabecalho"> 
+                <h1>Moeda Digital</h1>
+                <p>4 jan 2020</p>
+                <div id="linhaDivisoria"></div>
+            </div>
+            <div id="divCollection">
+                <div id="divCelulaMoeda">
+                    <div id="divImagem">
+                        <img id="imagemMoeda" src="bitcoin.png">
+                    </div>
+                    <p id="nomeMoeda">Bitcoin</p>
+                    <p>BTC</p>
+                    <p id="valorCelula">$ 31.010,20</p>
+                </div>  
+                <div id="divCelulaMoeda">
+                    <div id="divImagem">
+                        <img id="imagemMoeda" src="litecoin.png">
+                    </div>
+                    <p id="nomeMoeda">Litecoin</p>
+                    <p>LTC</p>
+                    <p id="valorCelula">$ 262,06</p>
+                </div>  
+                <div id="divCelulaMoeda">
+                    <div id="divImagem">
+                        <img id="imagemMoeda" src="vechain.png">
+                    </div>
+                    <p id="nomeMoeda">VeChain</p>
+                    <p>VEN</p>
+                    <p id="valorCelula">$ 0,20</p>
+                </div> 
+                <div id="divCelulaMoeda">
+                    <div id="divImagem">
+                        <img id="imagemMoeda" src="ripple.png">
+                    </div>
+                    <p id="nomeMoeda">Ripple</p>
+                    <p>XRP</p>
+                    <p id="valorCelula">$ 1,40</p>
+                </div>  
+
+            </div>
+        
+            <div id="tabBar">
+                <div id="buttonEsquerda">
+                    <img src="moedas.png">
+                    <p id="textoTabBar">Moedas</p>
+                </div>
+                <div id="buttonDireita">
+                    <img src="favoritos.png">
+                    <p id="textoTabBar">Adicionadas</p>
+                </div>
+            </div>
+        </div>    
+    </body>
+
+</html>
